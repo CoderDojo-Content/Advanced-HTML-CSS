@@ -21,7 +21,7 @@
    * The `figcaption` element is your **caption**. It can go either above the `img` element or below it.
 
 5. When you run your code, the picture and text might have changed position, to be centered on the page. Maybe you were happy with the original positioning of the elements and don't want this. Simply define CSS rules for the `figure` and set the margin properties to zero, or values that suit you. You can style both `figure` and `figcaption` as you would any other element, with background colour, borders, etc.
-   ```CSS
+   ```css
       figure { 
           margin-top: 0px;
           margin-bottom: 0px;
