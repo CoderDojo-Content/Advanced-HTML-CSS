@@ -54,5 +54,20 @@
       </aside>
    ```
    
-8. Use the `aside` **selector** to define CSS styles for this new element to make it stand out from the other stuff on your page.
+8. Use the `aside` **selector** to define CSS styles for this new element to make it stand out from the other stuff on your page. Your imagination is the limit here!
+
+   ```css
+      aside {
+        background-color: #ccddff;
+        padding: 1em;
+        border-style: solid;
+        border-width: 2px;
+        border-color: Purple;
+        color: #5c00e6;
+      }
+      aside section {
+        border-style: none;
+      }
+   ```   
+
    
