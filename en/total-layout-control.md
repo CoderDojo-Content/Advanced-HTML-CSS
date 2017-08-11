@@ -7,3 +7,5 @@
 * throw in a simple picture? prob help a lot to demonstrate positioning....
 
 * it's really important to use the **semantic** elements whenever you can. Reasons - structure, screen readers, divs can make a page messy very quickly.
+
+* show the margin: auto trick for centering elements! (should this be in intermediate???)
