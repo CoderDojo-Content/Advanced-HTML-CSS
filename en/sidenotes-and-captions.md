@@ -49,7 +49,6 @@
           <h2>Weather</h2>
           <p>The weather in Ireland is very unpredictable! Even on a beautiful day you could get unexpectedly rained on.</p>
           <p>It's best to be prepared for any kind of weather if you are going outside.</p>
-      
        </section>
       </aside>
    ```
