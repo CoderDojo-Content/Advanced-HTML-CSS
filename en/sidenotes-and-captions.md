@@ -54,7 +54,7 @@
       </aside>
    ```
    
-8. Use the `aside` **selector** to define CSS styles for this new element to make it stand out from the other stuff on your page. Your imagination is the limit here!
+8. Use the `aside` **selector** to define CSS styles for this new element to make it stand out from the other stuff on your page.
 
    ```css
       aside {
