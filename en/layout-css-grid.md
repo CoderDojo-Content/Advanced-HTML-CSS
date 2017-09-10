@@ -1,7 +1,6 @@
-1. Let's look at the Attractions page. At the moment all the elements are displayed one after the other. You are going to make a more interesting layout by writing some CSS classes. The container you'll change the layout of is `main`, but you could do this with any kind of container, like `div` or `article`, or even the whole page `body`.
+1. You should now have a page where `main` contains three elements: one `article` and two `aside`. At the moment, they are displayed one after the other. You are going to make a more interesting layout by writing some CSS classes.
 
-2. `main` contains three elements: one `article` and two `aside`s. Give each one a new css class, and give `main` another.
-
+2.  Add new CSS classes to `main` and each of three elements inside it.
     ```html
         <main class="attPageLayoutGrid">
             <article class="attGridArticle">
@@ -15,6 +14,8 @@
             </aside>
         </main>
     ```
+    The container you'll change the layout of is `main`, but you could do this with any kind of container, like `div` or `article`, or even the whole page `body`.
+
 3. To design the layout, you're going to use **CSS grid**. In the overall container, you set the `display` property to `grid`:
     ```css
         .attPageLayoutGrid {
@@ -47,10 +48,8 @@
     Notice how you make the `article` take up all the space over the two columns
     * `fr` stands for _fraction_. You could use `px` if you wanted exact measurements instead of proportional ones.
 
-6. Let's try putting the `aside` elements over on the right, and making them half the width of the `article`. Change your code to:
+6. Let's try putting the `aside` elements over on the right, and making them half the width of the `article`. Change the value of `grid-template-areas` to:
     ```css
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto;
         grid-template-areas: 
             "agArticle agAside1"
             "agArticle agAside2";
@@ -58,15 +57,11 @@
 
 7. If you don't want the `aside` elements to stretch all the way to the bottom, you can add in another row, and put a blank space on it using a dot: 
     ```css
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto;
         grid-template-areas: 
             "agArticle agArticle"
             "agArticle agAside2"
             "agArticle .";
     ```
-8. Here's what the layout looks like for each of these three examples:
+8. Here's what the layout looks like for each of these three examples: ![](GridLayouts_390_1200.png)
 
-
-9. You can make almost any layout you like using CSS grid. In this example the header and footer were left out of the design, but they could be included in the grid too. 
- * Like Flex, covering all the details would easily fill a whole Sushi Series on its own. If you want to learn more about CSS grid, go to dojo.soy/a-html-css-grid 
+9. You can make almost any layout you like using CSS grid. In this example the header and footer were left out of the design, but they could be included in the grid too. Like Flex, covering all the details would easily fill a whole Sushi Series on its own. If you want to learn more about CSS grid, go to dojo.soy/a-html-css-grid 
