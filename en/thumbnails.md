@@ -1,4 +1,4 @@
-1. With CSS you can make a bunch of little preview cards that give an _overview_ or summary of stuff that's on your website. I'm going to do some highlights of the tourist attractions in Ireland. You can change it to whatever you like. You could use this technique to make a portfolio page showing off all your projects that you've done! Add the following HTML code to your web page:
+1. With CSS you can make a bunch of little preview cards that give an _overview_ or summary of stuff that's on your website. I'm going to do some highlights of the tourist attractions in Ireland. You could use this technique to make a photo gallery, or a portfolio page showing off all your projects that you've done! Add the following HTML code to your web page:
     ```html
         <article class="thumbnail ">
             <img src="monkey-2223271_640.jpg" class="smallPics">
@@ -6,7 +6,7 @@
             <p><span class="locationText">Location:</span> Fota Island, County Cork</p>
 		</article>
   	```
-
+    Change the picture and text to whatever you like.
 2. Here's the CSS code for the classes `thumbnail` and `smallPics` as well as for the heading `h3`:
     ```css
         h3 {
@@ -25,6 +25,9 @@
             box-sizing: border-box;
             margin-top: 10px;
             font-family: "Lato", sans-serif;
+        }
+        .thumbnail:hover {
+            border-color: blue;
         }
     ```
     The font-families **League Gothic** and **Lato** are used a lot in CoderDojo materials!
@@ -60,14 +63,4 @@
     ```
     Setting the value of any property to `inherit` makes it use the value of the parent element, so in this case the text colour will match the rest of the text on the homepage.
 
-7. Let's add a little animation when you hover over the card! With the `transform` property you can move something up or down with `translateY` and left or right with `translateX`. Add the following CSS code. Try out different values in the traslate function!
-    ```css
-        .thumbnail:hover {
-            box-shadow: 0px 2px 2px rgba(0,0,0,0.2); 
-            transform: translateY(-2px);
-        }
-    ```
-    Play about with different pixel values in the `box-shadow` to see what they do. 
-     * `rgba(0,0,0,0.2)` is another way of defining a colour. It's got the usual three numbers for Red, Green and Blue. The fourth number, called the **alpha** value, sets how see-through something is; it is a number between `0` and `1`.
-
-8. Finally, add the following property to the `.thumbnail` class: `transition: all 0.2s ease-out;` This makes the movements smooth and last for `0.2` seconds.
+7. Make at least four or five of these thumbnail links. On the next card you'll arrange them with a cool trick!
