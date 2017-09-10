@@ -1,10 +1,9 @@
-1. Do you find that when you add a picture you also add some text that goes with it, a **caption**? Then you could make use of two elements designed just for that purpose: `figure` and `figcaption`!
+1. If you want to add a **caption** to a picture, that is, some text that goes with it like a title or short description, then you could make use of two elements designed just for that purpose: `figure` and `figcaption`!
 2. Find an `img` element where you have text above or below that goes with the picture. I'm working with the Tito picture on index.html, but you can go with whatever is on your website.  
-
    ```html
       <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" />  		
       <p>
-        This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
+        Tour guide Tito!
       </p>
    ```
 3. On the line above the code, add the tag `<figure>`. Place the closing tag `<\figure>` on a new line after the code.
@@ -14,13 +13,13 @@
       <figure>
          <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" />  		
          <figcaption>
-         This is Tito. He will be your tourguide! As you can see, Tito loves CoderDojo.
+         Tour guide Tito!
          </figcaption>
       </figure>
    ```
    * The `figcaption` element is your **caption**. It can go either above the `img` element or below it.
 
-5. When you run your code, the picture and text might have changed position, to be centered on the page. Maybe you were happy with the original positioning of the elements and don't want this. Simply define CSS rules for the `figure` and set the margin properties to zero, or values that suit you. You can style both `figure` and `figcaption` as you would any other element, with background colour, borders, etc.
+5. When you run your code, the picture and text might have changed position. Maybe you were happy with the original positioning of the elements and don't want this. Simply define CSS rules for the `figure` and set the margin properties to zero, or values that suit you. You can style both `figure` and `figcaption` as you would any other element, with background colour, borders, etc.
    ```css
       figure { 
           margin-top: 0px;
@@ -31,7 +30,7 @@
    ```
    * The `figure` element acts as a sort of **container** for your picture and its caption. As well as allowing you to treat them as one unit when defining styles, grouping them together logically helps to maintain a good structure to your website.
    
-6. Another useful element is `aside`. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about how to get around. That information doesn't really belong in the `article` element with all the attractions.
+6. Another useful element is `aside`. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about weather and how to get around. That information doesn't really belong in the `article` element with all the attractions.
 
 7. Outside of the `article` element, add one or more pairs of `<aside> <\aside>` tags containing your extra stuff. You can use sections and other elements inside them as normal.
    ```html  
