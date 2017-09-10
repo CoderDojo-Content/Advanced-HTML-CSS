@@ -1,8 +1,8 @@
-1. Add a `div` to your page and put a couple of images in it. Give the `div` and the `img` elements `id` values. I'm also adding a CSS **class** to give the photos all a border.
+1. Add a `div` to your page and put a couple of images in it. Give the `div` and the `img` elements `id` values.
     ```html
       <div id="photoBox">
-        <img id="imgHorse" class="photo" src="connemara-pony-512028_640.jpg" alt="Connemara pony" />
-        <img id="imgTeaCat" class="photo" src="ireland-2360846_640.jpg" alt="Even cats drink tea in Ireland!" />
+        <img id="imgHorse" src="connemara-pony-512028_640.jpg" alt="Connemara pony" />
+        <img id="imgTeaCat" src="ireland-2360846_640.jpg" alt="Even cats drink tea in Ireland!" />
       </div>
     ```
     You will use CSS to position the photos exactly and make a photo collage.
@@ -17,9 +17,6 @@
         }
         #imgTeaCat {
             width: 250px;
-        }
-        .photo {
-            border: 1px solid white;
         }
     ```
 
@@ -55,4 +52,4 @@
             z-index: 7;
         }
     ```
-7. Add a bunch more photos and use exact positioning together with different `z-index` values to make a nice collage! ![](assets/PhotoCollage.png)
+7. Add a bunch more photos and use exact positioning together with different `z-index` values to make a nice collage! ![](assets/PhotoCollage_322_800.png)
