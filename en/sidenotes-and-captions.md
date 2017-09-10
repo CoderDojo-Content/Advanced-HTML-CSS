@@ -8,7 +8,7 @@
    ```
 3. On the line above the code, add the tag `<figure>`. Place the closing tag `<\figure>` on a new line after the code.
 
-4. Next, remove the `p` tags, or whatever tags you have around the text \(maybe it's a heading like `h2`?\) and put the text in between `<figcaption> <\figcaption>` tags instead. The whole thing should look something like this:
+4. Next, remove the `p` tags, or whatever tags you have around the text \(maybe it's a heading, like `h2`?\) and put the text in between `<figcaption> <\figcaption>` tags instead. The whole thing should look something like this:
    ```html
       <figure>
          <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" />  		
@@ -17,7 +17,7 @@
          </figcaption>
       </figure>
    ```
-   * The `figcaption` element is your **caption**. It can go either above the `img` element or below it.
+   The `figcaption` element is your **caption**. It can go either above the `img` element or below it.
 
 5. When you run your code, the picture and text might have changed position. Maybe you were happy with the original positioning of the elements and don't want this. Simply define CSS rules for the `figure` and set the margin properties to zero, or values that suit you. You can style both `figure` and `figcaption` as you would any other element, with background colour, borders, etc.
    ```css
@@ -28,9 +28,9 @@
           margin-right: 0px;
       }
    ```
-   * The `figure` element acts as a sort of **container** for your picture and its caption. As well as allowing you to treat them as one unit when defining styles, grouping them together logically helps to maintain a good structure to your website.
+   The `figure` element acts as a sort of **container** for your picture and its caption. As well as allowing you to treat them as one unit when defining styles, grouping them together logically helps to maintain a good structure to your website.
    
-6. Another useful element is `aside`. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about weather and how to get around. That information doesn't really belong in the `article` element with all the attractions.
+6. Another useful container is `aside`. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about weather and how to get around. That information doesn't really belong in the `article` element with all the attractions.
 
 7. Outside of the `article` element, add one or more pairs of `<aside> <\aside>` tags containing your extra stuff. You can use sections and other elements inside them as normal.
    ```html  
@@ -50,7 +50,11 @@
       </aside>
    ```
 
-  8. As normal you can change how these elements look using `id` or CSS classes, or the `aside` and `figure` selectors.
+8. You can write some CSS rules to make the `aside` elements look different or stand out if you want to. I've added a lighter background to mine. 
+
+9. The `aside` container is similar to the `article` one. The only real difference is in the _meaning_, that is, what you use them for. It's important to use meaningful HTML elements whenever you can. It gives your website better structure and is especially helpful for people using **screen readers**.
+  **semantic** elements whenever you can. Reasons - structure, screen readers, divs can make a page messy very quickly.
    
+10. At the moment, these containers are displayed one after the other down your page. On the next card you're going to see how to make the layout more interesting! To get ready, make a page that has one `article` and two `aside` elements inside the `<main> </main>` tags. You will use that page as an example. Or if you prefer, you can work with the Attractions page on my website.
 
    
