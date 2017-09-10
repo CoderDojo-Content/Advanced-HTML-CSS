@@ -52,4 +52,4 @@
             z-index: 7;
         }
     ```
-7. Add a bunch more photos and use exact positioning together with different `z-index` values to make a nice collage! ![](assets/PhotoCollage_322_800.png)
+7. Add a bunch more photos and use exact positioning together with different `z-index` values to make a nice collage! ![](assets/PhotoCollage.png)
