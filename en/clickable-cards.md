@@ -33,7 +33,7 @@
     ```
     The font-families **League Gothic** and **Lato** are used a lot in CoderDojo materials!
 
-3. You should have something that looks like this now: Let's turn the whole thing into a link so people can click to see more information. ![](ThumbnailCard_215_800.png)
+3. You should have something that looks like this now: Let's turn the whole thing into a link so people can click to see more information. ![](assets/ThumbnailCard_215_800.png)
 
 4. Place the whole `article` element inside a link element. Make sure the closing `</a>` tag is after the closing `</article>` tag! 
     ```html
