@@ -1,4 +1,4 @@
-1. You should now have a page where `main` contains three elements: one `article` and two `aside`. Add new CSS classes to `main` and each of three elements inside it.
+1. You should now have a page where `main` contains three elements: one `article` and two `aside`. You're  Add new CSS classes to `main` and each of three elements inside it.
     ```html
         <main class="attPageLayoutGrid">
             <article class="attGridArticle">
@@ -12,7 +12,7 @@
             </aside>
         </main>
     ```
-    The container you'll change the layout of is `main`, but you could do this with any kind of container, like `div` or `article`, or even the whole page `body`.
+    The container you'll change the layout of is `main`, but you could do this with any kind of container, like `div` or `article`, or even the whole page `body`. The technique you're going to use is called **CSS grid**.
 
 2. Set the `display` property to `grid` on the overall container:
     ```css
@@ -63,4 +63,4 @@
     ```
 7. Here's what the layout looks like for each of these three examples: ![](assets/GridLayouts_390_1200.png)
 
-8. This technique is called **CSS grid** and with it you can make almost any layout you like. In this example the header and footer were left out of the design, but they could be included in the grid too. If you want to learn more about CSS grid, go to dojo.soy/a-html-css-grid 
+8. With **CSS grid** you can make almost any layout you like. In this example the header and footer were left out of the design, but they could be included in the grid too. If you want to learn more about CSS grid, go to dojo.soy/a-html-css-grid 
