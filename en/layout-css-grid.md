@@ -38,17 +38,17 @@
     ```
 5. Then you design your layout! Let's put the two `aside` elements side by side at the bottom. For this you need two **columns** of equal width. You can keep the **row** height automatic. Put the following code inside the `.attPageLayoutGrid` rules:
     ```css
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
             "agArticle agArticle"
             "agAside1 agAside2";
     ```
-    Notice how you make the `article` take up all the space over the two columns
-    * `fr` stands for _fraction_. You could use `px` if you wanted exact measurements instead of proportional ones.
+    `fr` stands for _fraction_. You could use `px` if you wanted exact measurements instead of proportional ones. Notice how you make the `article` take up all the space over the two columns.
 
-6. Let's try putting the `aside` elements over on the right, and making them half the width of the `article`. Change the value of `grid-template-areas` to:
+6. Let's try putting the `aside` elements over on the right, and making them half the width of the `article`. Change the values of `grid-template-columns` and `grid-template-areas` to:
     ```css
+        grid-template-columns: 2fr 1fr;
         grid-template-areas: 
             "agArticle agAside1"
             "agArticle agAside2";
@@ -63,4 +63,4 @@
     ```
 8. Here's what the layout looks like for each of these three examples: ![](assets/GridLayouts_390_1200.png)
 
-9. You can make almost any layout you like using CSS grid. In this example the header and footer were left out of the design, but they could be included in the grid too. Like Flex, covering all the details would easily fill a whole Sushi Series on its own. If you want to learn more about CSS grid, go to dojo.soy/a-html-css-grid 
+9. You can make almost any layout you like using CSS grid. In this example the header and footer were left out of the design, but they could be included in the grid too. If you want to learn more about CSS grid, go to dojo.soy/a-html-css-grid 
