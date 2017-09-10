@@ -35,7 +35,7 @@
     ```
     * The position values can also be negative!
 
-6. You can also choose how the pictures overlap, using the `z-index` property. The value can be any whole number. The picture with the highest number ends up on top of the pile!
+6. You can also decide how the pictures overlap, using the `z-index` property. The value can be any whole number. The picture with the highest number ends up on top of the pile!
     ```css
         #imgHorse {
             width: 120px;

@@ -1,4 +1,4 @@
-1. You should now have a page where `main` contains three elements: one `article` and two `aside`. At the moment, they are displayed one after the other. You are going to make a more interesting using **CSS grid**. The container you'll change the layout of is `main`, but you could do this with any kind of container, like `div` or `article`, or even the whole page `body`.
+1. You should now have a page where `main` contains three elements: one `article` and two `aside`. At the moment, they are displayed one after the other. You are going to make a more interesting layout using **CSS grid**. The container you'll change the layout of is `main`, but you could do this with any kind of container, like `div` or `article`, or even the whole page `body`.
 
 2.  Add new CSS classes to `main` and each of three elements inside it.
     ```html
