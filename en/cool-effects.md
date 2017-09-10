@@ -21,9 +21,9 @@
            <p>A lemur enjoying a little snack</p>
          </a>
     ```
-    You can put anything you like in between the link tags. I've got a picture, a heading and some text. Maybe you just want a picture and no text.
+    You can put anything you like in between the link tags. I've got a big picture, a heading and some text. Maybe you just want a picture and no text.
 
-4. The other link is of course the thing that you click to make the lightbox appear. Simply add a pair of `a` tags around the element, in this case a small picture of a lemur. The **target** of the link will be the lightbox, which you set using the `id`. You might recognise this technique from earlier!
+4. The other link is of course the thing that you click to make the lightbox appear. Simply add a pair of `a` tags around the element, in this case a smaller picture of a lemur. The **target** of the link will be the lightbox, which you set using the `id`. You might recognise this technique from earlier!
     ```html
         <a href="#boxLemur">
             <img src="monkey-2223271_640.jpg" class="smallPics">
