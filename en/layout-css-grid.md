@@ -54,7 +54,7 @@
             "agArticle agAside2";
     ```
 
-7. If you don't want the `aside` elements to stretch all the way to the bottom, you can add in another row, and put a blank space on it using a dot: 
+7. If you don't want the `aside` elements to stretch all the way to the bottom, you can add blank space on another row, using a dot: 
     ```css
         grid-template-areas: 
             "agArticle agArticle"
