@@ -52,4 +52,4 @@
             z-index: 7;
         }
     ```
-7. Add a bunch more photos and use exact positioning together with different `z-index` values to make a nice collage! ![](assets/PhotoCollage.png)
+7. Add a bunch more photos and use exact positioning together with different `z-index` values to make a nice collage! You can position any html elements in this way, not just images. How about putting some text over the pictures? ![](assets/PhotoCollage.png)

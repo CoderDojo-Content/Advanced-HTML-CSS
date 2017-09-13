@@ -45,16 +45,25 @@
        </aside>
        <aside>
           <h2>Weather</h2>
-          <p>The weather in Ireland is very unpredictable! Even on a beautiful day you could get unexpectedly rained on.</p>
+          <p>The weather in Ireland is <span class="specialText">very unpredictable!</span> Even on a beautiful day you could get unexpectedly rained on.</p>
           <p>It's best to be prepared for any kind of weather if you are going outside.</p>
       </aside>
    ```
+  You can write some CSS rules to make the `aside` elements look different or stand out if you want to.
 
-8. You can write some CSS rules to make the `aside` elements look different or stand out if you want to. I've added a lighter background to mine. 
+8. Did you spot the bonus element in there, **span**? It's a special tag you can use just for adding extra CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph. Here's the CSS code for mine:
+    ```css
+        aside {
+          background-color: THELIGHTPURPLE;
+        }
+        .specialText {
+            color: #00ff00;
+            font-size: larger;
+        }
+    ```
 
 9. The `aside` container is similar to the `article` one. The only real difference is in the _meaning_, that is, what you use them for. It's important to use meaningful HTML elements whenever you can. It gives your website better structure and is especially helpful for people using **screen readers**.
-  **semantic** elements whenever you can. Reasons - structure, screen readers, divs can make a page messy very quickly.
    
-10. At the moment, these containers are displayed one after the other down your page. On the next card you're going to see how to make the layout more interesting! To get ready, make a page that has one `article` and two `aside` elements inside the `<main> </main>` tags. You will use that page as an example. Or if you prefer, you can work with the Attractions page on my website.
+10. On the next card you're going to see how to make the layout more interesting! To get ready, make a page that has one `article` and two `aside` elements inside the `<main> </main>` tags. You will use that page as an example. Or if you prefer, you can work with the Attractions page on my website.
 
    

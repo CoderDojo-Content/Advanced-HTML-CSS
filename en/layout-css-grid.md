@@ -57,7 +57,7 @@
 6. If you don't want the `aside` elements to stretch all the way to the bottom, you can add a blank space using a dot: 
     ```css
         grid-template-areas: 
-            "agArticle agArticle"
+            "agArticle agAside1"
             "agArticle agAside2"
             "agArticle . ";
     ```
