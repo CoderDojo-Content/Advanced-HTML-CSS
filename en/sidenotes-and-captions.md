@@ -32,38 +32,33 @@
    
 6. Another useful container is `aside`. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about weather and how to get around. That information doesn't really belong in the `article` element with all the attractions.
 
-7. Outside of the `article` element, add one or more pairs of `<aside> <\aside>` tags containing your extra stuff. You can use sections and other elements inside them as normal.
-   ```html  
-      <aside>
-          <h2>Getting around</h2>
-          <h3>Train</h3>
-          <p>You can get to most of the major towns by train from Dublin.</p>
-          <h3>Bus</h3>
-          <p>There are many bus and coach services offering tours to popular locations and tourist attractions.</p>
-          <h3>Car</h3>
-          <p>The easiest way to get around outside of the cities is probably by car. Many remote areas do not have regular public transport services.</p>
-       </aside>
-       <aside>
-          <h2>Weather</h2>
-          <p>The weather in Ireland is <span class="specialText">very unpredictable!</span> Even on a beautiful day you could get unexpectedly rained on.</p>
-          <p>It's best to be prepared for any kind of weather if you are going outside.</p>
+7. Outside of the `article` element, add one or more pairs of `<aside> <\aside>` tags containing your extra stuff.
+  ```html  
+    <aside class="lightPurpleBackground">
+        <h2>Getting around</h2>
+        <h3>Train and bus</h3>
+        <p>You can get to most of the major towns by train from Dublin. There are many buses that do tours to popular locations and tourist attractions.</p>
+        <h3>Car</h3>
+        <p>The easiest way to get around outside of the cities is by car.</p>
       </aside>
-   ```
-  You can write some CSS rules to make the `aside` elements look different or stand out if you want to.
+      <aside class="lightPurpleBackground">
+        <h2>Weather</h2>
+        <p>The weather in Ireland is <span class="specialText">very unpredictable!</span> It's best to <span class="specialText">be prepared</span> for any kind of weather, even if it's a nice day!</p>
+    </aside>
+  ```
+   * The `aside`, `article` and other containers are similar. The only real difference is in the _meaning_, that is, what you use them for. It's important to use meaningful HTML elements whenever you can. It gives your website better structure and is especially helpful for people using **screen readers**.
+  
+8. You can write some CSS rules to make the `aside` elements look different or stand out if you want to. Did you spot the bonus element in there, **span**? It's a special tag you can use just for adding extra CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph.
+  ```css
+    .lightPurpleBackground {
+      background-color: #cfbfff;
+    }
+    .specialText {
+        color: #00ff00;
+        font-size: larger;
+    }
+  ```
 
-8. Did you spot the bonus element in there, **span**? It's a special tag you can use just for adding extra CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph. Here's the CSS code for mine:
-    ```css
-        aside {
-          background-color: THELIGHTPURPLE;
-        }
-        .specialText {
-            color: #00ff00;
-            font-size: larger;
-        }
-    ```
-
-9. The `aside` container is similar to the `article` one. The only real difference is in the _meaning_, that is, what you use them for. It's important to use meaningful HTML elements whenever you can. It gives your website better structure and is especially helpful for people using **screen readers**.
-   
-10. On the next card you're going to see how to make the layout more interesting! To get ready, make a page that has one `article` and two `aside` elements inside the `<main> </main>` tags. You will use that page as an example. Or if you prefer, you can work with the Attractions page on my website.
+9. On the next card you're going to see how to make the layout more interesting! To get ready, make a page that has one `article` and two `aside` elements inside the `<main> </main>` tags. Or if you prefer, you can work with the Attractions page on my website.
 
    
