@@ -1,14 +1,16 @@
-1. If you want to add a **caption** to a picture, that is, some text that goes with it like a title or short description, then you could make use of two elements designed just for that purpose: `figure` and `figcaption`!
-2. Find an `img` element where you have text above or below that goes with the picture. I'm working with the Tito picture on index.html, but you can go with whatever is on your website.  
+1. If you want to add a **caption** to a picture, that is, some text that goes with it like a title or short description, then you could make use of two elements designed just for that purpose: **figure** and **figcaption**!
+
+2. Find an **img** element where you have text above or below that goes with the picture. I'm working with the Tito picture on i_ndex.html_, but you can go with whatever is on your website.  
    ```html
       <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" />  		
       <p>
         Tour guide Tito!
       </p>
    ```
+
 3. On the line above the code, add the tag `<figure>`. Place the closing tag `<\figure>` on a new line after the code.
 
-4. Next, remove the `p` tags, or whatever tags you have around the text \(maybe it's a heading, like `h2`?\) and put the text in between `<figcaption> <\figcaption>` tags instead. The whole thing should look something like this:
+4. Next, remove the **p** tags, or whatever tags you have around the text \(maybe it's a heading, like **h2**?\) and put the text in between `<figcaption> <\figcaption>` tags instead. The whole thing should look something like this:
    ```html
       <figure>
          <img id="imgTito" class="solidRoundBorders" src="tito.png" alt="Tito the dog" />  		
@@ -17,9 +19,9 @@
          </figcaption>
       </figure>
    ```
-   The `figcaption` element is your **caption**. It can go either above the `img` element or below it.
+   The **figcaption** element is your **caption**. It can go either above the **img** element or below it.
 
-5. When you run your code, the picture and text might have changed position. Maybe you were happy with the original positioning of the elements and don't want this. Simply define CSS rules for the `figure` and set the margin properties to zero, or values that suit you. You can style both `figure` and `figcaption` as you would any other element, with background colour, borders, etc.
+5. When you run your code, the picture and text might have changed position. Maybe you were happy with the original positioning of the elements and don't want this. Simply define CSS rules for the **figure** and set the margin properties to zero, or values that suit you. You can style both **figure** and **figcaption** as you would any other element, with background colour, borders, and everything else.
    ```css
       figure { 
           margin-top: 0px;
@@ -28,11 +30,11 @@
           margin-right: 0px;
       }
    ```
-   The `figure` element acts as a sort of **container** for your picture and its caption. As well as allowing you to treat them as one unit when defining styles, grouping them together logically helps to maintain a good structure to your website.
+   The **figure** element acts as a sort of **container** for your picture and its caption. As well as allowing you to treat them as one unit when defining styles, grouping them together logically helps to maintain a good structure to your website.
    
-6. Another useful container is `aside`. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about weather and how to get around. That information doesn't really belong in the `article` element with all the attractions.
+6. Another useful container is **aside**. You use it when you have extra stuff that doesn't really belong with the main information on a page. For example, the Attractions page on my website is a list of places to visit. I want to add some notes about weather and how to get around. That information doesn't really belong in the **article** element with all the attractions.
 
-7. Outside of the `article` element, add one or more pairs of `<aside> <\aside>` tags containing your extra stuff.
+7. Outside of the **article** element, add one or more pairs of `<aside> <\aside>` tags containing your extra stuff.
   ```html  
     <aside class="lightPurpleBackground">
         <h2>Getting around</h2>
@@ -46,9 +48,9 @@
         <p>The weather in Ireland is <span class="specialText">very unpredictable!</span> It's best to <span class="specialText">be prepared</span> for any kind of weather, even if it's a nice day!</p>
     </aside>
   ```
-   * The `aside`, `article` and other containers are similar. The only real difference is in the _meaning_, that is, what you use them for. It's important to use meaningful HTML elements whenever you can. It gives your website better structure and is especially helpful for people using **screen readers**.
+   * The **aside**, **article** and other containers are similar. The only real difference is in the _meaning_, that is, what you use them for. It's important to use meaningful HTML elements whenever you can. It gives your website better structure and is especially helpful for people using **screen readers**.
   
-8. You can write some CSS rules to make the `aside` elements look different or stand out if you want to. Did you spot the bonus element in there, **span**? It's a special tag you can use just for adding extra CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph.
+8. You can write some CSS rules to make the **aside** elements look different or stand out if you want to. Did you spot the bonus element in there, **span**? It's a special tag you can use just for adding extra CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph.
   ```css
     .lightPurpleBackground {
       background-color: #cfbfff;
@@ -59,6 +61,6 @@
     }
   ```
 
-9. On the next card you're going to see how to make the layout more interesting! To get ready, make a page that has one `article` and two `aside` elements inside the `<main> </main>` tags. Or if you prefer, you can work with the Attractions page on my website.
+9. On the next card you're going to learn how to make the layout more interesting! To get ready, make a page that has one **article** and two **aside** elements inside the `<main> </main>` tags. Or if you prefer, you can work with the Attractions page on my website.
 
    
