@@ -7,5 +7,5 @@
 4. If you remixed my example, click on your username and go to "My Trinkets". You will see the remixed project there. Open it and change the name if you like, then click "Save".
 
 5. Just above the tabs in the code panel, click the icon and select either "Click to Run" or "Autorun".
-   * Click to Run: Recommended. Any time you have made changes to your code, click the button to see the results.
-   * Autorun: Your website will be automatically updated every time you make a change to the code. It doesn't always wait for you to stop typing, so this usually results in a lot of flashing of the page while you type! It also thinks there's errors when you haven't finished typing yet, which can be confusing.
+   * _Click to Run:_ Recommended. Any time you have made changes to your code, click the button to see the results.
+   * _Autorun:_ Your website will be automatically updated every time you make a change to the code. It doesn't always wait for you to stop typing, so this usually results in a lot of flashing of the page while you type! It also thinks there's errors when you haven't finished typing yet, which can be confusing.

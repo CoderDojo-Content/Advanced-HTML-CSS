@@ -1,4 +1,4 @@
-1. Let's add a little movement when you hover over the cards you made earlier! You may remember the **transform** property from the Intermediate Sushi Cards \(when you made things rotate with **@keyframes** animations!\). You can also use it to move something up or down with _translateY_ and left or right with _translateX_. Add the following CSS code. Try out different values in the traslate function!
+1. Let's add a little movement when you hover over the cards you made earlier! You may remember the **transform** property from the Intermediate Sushi Cards \(when you made things rotate with **@keyframes** animations!\). You can also use it to move something up or down with _translateY_ and left or right with _translateX_. Find the _.card:hover_ CSS class from earlier and change it to the following. Try out different values in the traslate function!
    ```css
         .card:hover {
             box-shadow: 0px 2px 2px rgba(0,0,0,0.2); 
@@ -17,7 +17,7 @@
 
 3. Another effect you've probably seen on loads of websites is **lightbox**, where you click on something and the screen dims while something else, like a bigger picture or a popup box, appears in front of everything. To get this effect you will make two links.
 
-4. The first link is for the actual **lightbox**. It contains all the stuff that will appear when you click. Make sure you give the link itself an **id**.
+4. The first link is for the actual **lightbox**. It contains all the stuff that will appear when you click. Make sure you give the link itself an **id**. I'm doing mine on the Attractions page of my website. You go with whatever page you have pictures on!
     ```html
         <a href="#_" class="lightbox" id="boxLemur">
            <h3>Lemur!!</h3>
@@ -26,6 +26,7 @@
          </a>
     ```
     You can put anything you like in between the link tags. I've got a big picture, a heading and some text. Maybe you just want a picture and no text.
+ * It doesn't matter where inside the **main** element you put this code, as you will be making it invisible soon!
 
 4. The other link is of course the thing that you click to make the lightbox appear. Simply add a pair of **a** tags around the element, in this case a smaller picture of a lemur. The **target** of the link will be the lightbox, which you set using the **id**. You might recognise this technique from earlier!
     ```html
