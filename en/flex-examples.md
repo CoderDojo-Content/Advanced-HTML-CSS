@@ -58,5 +58,3 @@
  * **Flex** is a pretty powerful layout tool that could fill a whole Sushi Series of it's own, but you can learn more at [dojo.soy/html3-flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 9. Trinket's project window is quite small. To test out your website on a full size screen, download the project and open up the file _index.html_ in a browser. Adjust the width of the window to see the menu change! You can put any CSS rules you like into these blocks, to define different styles for different screen sizes. It'll be especially useful when you do **CSS grid** layouts later!
-
-10. 
