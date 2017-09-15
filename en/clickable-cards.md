@@ -22,19 +22,19 @@
         .card {
             width: 200px;
             height: 200px;
-            border: 2px solid lightblue;
+            border: 2px solid #F0FFFF;
             border-radius: 10px;
             box-sizing: border-box;
             margin-top: 10px;
             font-family: "Lato", sans-serif;
         }
         .card:hover {
-            border-color: blue;
+            border-color: #1E90FF;
         }
    ```
    The font-families **League Gothic** and **Lato** are used a lot in CoderDojo materials!
 
-3. You should have something that looks like this now: Let's turn the whole thing into a link so people can click to see more information. ![](assets/ThumbnailCard_215_800.png)
+3. You should have something that looks like this now: Let's turn the whole thing into a link so people can click to see more information. ![](assets/previewCard.png)
 
 4. Place the whole **article** element inside a link element. Make sure the closing `</a>` tag is after the closing `</article>` tag! 
     ```html

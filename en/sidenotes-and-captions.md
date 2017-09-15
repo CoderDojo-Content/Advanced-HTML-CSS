@@ -53,10 +53,10 @@
 8. You can write some CSS rules to make the **aside** elements look different or stand out if you want to. Did you spot the bonus element in there, **span**? It's a special tag you can use just for adding extra CSS! You can put anything in between a pair of **span** tags. It's useful for things like styling a _part_ of the text in a paragraph.
   ```css
     .lightPurpleBackground {
-      background-color: #cfbfff;
+      background-color: #CFBFFF;
     }
     .specialText {
-        color: #00ff00;
+        color: #FF4500;
         font-size: larger;
     }
   ```

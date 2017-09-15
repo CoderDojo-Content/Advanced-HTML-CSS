@@ -1,6 +1,6 @@
-1. This Sushi Card series uses Trinket \(dojo.soy/TRINKET-TODO-LINK\) for writing the website code. If you do not have an account on Trinket, it is recommended that you create one. It is free: all you need is an email address.
+1. This Sushi Card series uses Trinket [dojo.soy/html3-trinket](http://dojo.soy/html3-trinket) for writing the website code. If you do not have an account on Trinket, it is recommended that you create one. It is free: all you need is an email address.
 
-2. To work through the Sushi Cards you will need to start with a website that you already made. For example you can use the one that you made in the Intermediate HTML and CSS series. If you prefer, you can work with my example by **Remixing** this trinket: [dojo.soy/html3-website-start](TODO)
+2. To work through the Sushi Cards you will need to start with a website that you already made. For example you can use the one that you made in the Intermediate HTML and CSS series. If you prefer, you can work with my example by **Remixing** this trinket: [dojo.soy/html3-website-start](http://dojo.soy/html3-website-start)
 
 3. To make a copy of your own website in Trinket, open it and click the "Duplicate" button. Change the name if you like, and then click "Save".
 

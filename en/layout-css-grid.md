@@ -64,4 +64,4 @@
 
 7. Here's what the layout looks like for each of these three examples: ![](assets/GridLayouts_390_1200.png)
 
-8. With **CSS grid** you can make almost any layout you like. In this example the **header** and **footer** were left out of the design, but they could be included in the grid too. If you want to learn more about **CSS grid**, go to [dojo.soy/a-html-css-grid](TODO)
+8. With **CSS grid** you can make almost any layout you like. In this example the **header** and **footer** were left out of the design, but they could be included in the grid too. If you want to learn more about **CSS grid**, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
