@@ -1,4 +1,4 @@
-1. On this card you will use CSS to position HTML elements exactly and make a photo collage. ![](assets/photoCollageWithText.png)
+1. On this card you will use CSS to position HTML elements exactly and make a photo collage. ![](assets/photoCollageWithText_wide.png)
 
 2. Add a **div** to your page and put as many images in it as you like. Give the **div** and the **img** elements **id** values.
    ```html
@@ -7,7 +7,6 @@
         <img id="imgTeaCat" src="ireland-2360846_640.jpg" alt="Even cats drink tea in Ireland!" />
       </div>
    ```
-   The photos will appear one after the other on the web page, in the order they appear in your code.
    
 3. In your CSS file, add separate style rules for each of the elements using **id selectors**. For each of the elements inside the container, add the property `position: absolute;`. This lets you choose exact positions for them. You will want to define those positions _relative to_ (i.e. _within_) the container, so you also need to add the property `position: relative;` to the container itself.
     ```css
