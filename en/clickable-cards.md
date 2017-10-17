@@ -1,4 +1,4 @@
-1. Here's a technique you could use to make a photo gallery, or a portfolio page showing off all of your projects: little **preview cards**. ![](assets/previewCard.png)
+1. Here's a technique you could use to make a photo gallery, or a portfolio page showing off all of your projects: little **preview cards**. ![](assets/previewCard_800_214.png)
 
 2. Add the following HTML code to your website, anywhere you like. I'm doing mine on index.html.
    ```html
@@ -10,7 +10,7 @@
    ```
   I'm going to do a bunch of cards with some highlights of the tourist attractions in Ireland. You can change the pictures and text to whatever you like!
     
-2. Add the following CSS code for the classes _card_ and _smallPics_ as well as for the heading _h3_:
+3. Add the following CSS code for the classes _card_ and _smallPics_ as well as for the heading _h3_:
    ```css
         h3 {
             font-family: "League Gothic", sans-serif;
@@ -34,11 +34,17 @@
             border-color: #1E90FF;
         }
    ```
-   The font-families **League Gothic** and **Lato** are used a lot in CoderDojo materials!
 
-3. You should have something that looks like this now: Let's turn the whole thing into a link so people can click to see more information. 
+4. The **Lato** font-family is used a lot on CoderDojo materials. You can also use **League Gothic** for a "CoderDojo-y" heading:
+   ```css
+        h3 {
+            font-family: "League Gothic", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+        }
+   ```
 
-4. Place the whole **article** element inside a link element. Make sure the closing `</a>` tag is after the closing `</article>` tag! 
+5. Let's turn the whole thing into a link so people can click to see more information. Place the whole **article** element inside a link element. Make sure the closing `</a>` tag is after the closing `</article>` tag! 
     ```html
         <a href="attractions.html#scFota">  
             <article class="card ">
@@ -49,9 +55,9 @@
         </a>
     ```
     
-5. Notice how the value of **href** in my link ends in _#scFota_? This is a neat trick you can use to jump to a particular part of a page. First you type the URL of the page to link to, followed by **#**. In the code file for the page you are linking to, find the part you want to jump to and give that element an **id**, for example, `<section id="scFota"`. The value of the **id** is what you type after the **#** in your link.
+6. Notice how the value of **href** in my link ends in _#scFota_? This is a neat trick you can use to jump to a particular part of a page. First you type the URL of the page to link to, followed by **#**. In the code file for the page you are linking to, find the part you want to jump to and give that element an **id**, for example, `<section id="scFota"`. The value of the **id** is what you type after the **#** in your link.
 
-6. Now that the whoel thing is a link, the text font may have changed. You can fix it by adding a **CSS class** to the link, `class="cardLink"`. Here's the CSS code to put in your stylesheet:
+7. Now that the whoel thing is a link, the text font may have changed. You can fix it by adding a **CSS class** to the link, `class="cardLink"`. Here's the CSS code to put in your stylesheet:
    ```css
         .cardLink {
             color: inherit;
@@ -60,4 +66,4 @@
    ```
    Setting the value of any property to _inherit_ makes it use the value that the **parent** element has, so in this case the text colour will match the rest of the text on the homepage.
 
-7. Make at least four or five of these cards. They can link to anything you want, for example, other parts of your website as I have done, or other websites. If you are working from my example website you could do one for each of the sections on the attractions page. On the next Sushi Card you'll arrange the cards with a cool trick!
+8. Make at least four or five of these cards. They can link to anything you want, for example, other parts of your website as I have done, or other websites. If you are working from my example website you could do one for each of the sections on the attractions page. On the next Sushi Card you'll arrange the cards with a cool trick!
