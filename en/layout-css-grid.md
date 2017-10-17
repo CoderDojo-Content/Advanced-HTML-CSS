@@ -15,6 +15,7 @@
         </main>
    ```
    The container you'll change the layout of is **main**, but you could do this with any kind of container, like a **div** or **article**, or even the whole page **body**. The technique you're going to use is called **CSS grid**.
+   * In this example the **header** and **footer** will be left out of the design, but it's quite common to include them in the grid too.
 
 3. Set the **display** property to _grid_ on the overall container:
    ```css
@@ -63,4 +64,4 @@
             "agArticle . ";
    ```
 
-7. With **CSS grid** you can make almost any layout you like. In this example the **header** and **footer** were left out of the design, but they could be included in the grid too. If you want to learn more about **CSS grid**, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
+7. With **CSS grid** you can make almost any layout you like. If you want to learn more, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
