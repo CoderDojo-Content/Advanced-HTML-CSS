@@ -1,4 +1,6 @@
-1. First, getting stuff centered! By setting the left and right margins to _auto_ you can make any element be in the middle instead of over to the left. Try it now on the _.card_ class.
+1. On this card you will learn some tricks for arranging things **horizontally** on a page.
+
+2. First, getting stuff centered! By setting the left and right margins to _auto_ you can make any element be in the middle instead of over to the left. Try it now on the _.card_ class.
    ```css
         margin-left: auto;
         margin-right: auto;
@@ -26,11 +28,11 @@
         display: flex;
         justify-content: flex-start;
    ```
-   You end up with pretty much the same menu, right? The cool thing about Flex is you can control the layout with the property **justify-content**. Change its value to _flex-end_ and see what happens. Or change it to _space-around_ to make the menu items evely spaced, just like you did for the cards.
+   You end up with pretty much the same menu, right? The cool thing about Flex is you can control the layout with the property **justify-content**. Change its value to _flex-end_ and see what happens. Or change it to _space-around_ to make the menu items evenly spaced, just like you did for the cards.
 
 6. A **responsive** website is one that adjusts itself to the screen size: so it always looks great whether you're looking at it on a computer, mobile phone or tablet. Let's make your menu responsive. Start with the regular styles: this will be your **default** behaviour.
 
-7. Add the following CSS rules to your menu. You probably have colours and borders defined as well; I've left them out to save space here!
+7. Add the following CSS rules to your menu. You probably have colours and borders defined as well; I've left them out to save space here! If you already have CSS rules defined for your menu, just add in or change the properties and values that you are missing.
    ```css
         nav ul {
             padding: 0.5em;

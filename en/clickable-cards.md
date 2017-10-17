@@ -48,10 +48,9 @@
             </article>
         </a>
     ```
+ Notice how the value of **href** in my link ends in _#scFota_? This is a neat trick you can use to jump to a particular part of a page. First you type the URL of the page to link to, followed by **#**. In the code file for the page you are linking to, find the part you want to jump to and give that element an **id**, for example, `<section id="scFota"`. The value of the **id** is what you type after the **#** in your link.
 
-6. Notice how the value of **href** in my link ends in _#scFota_? This is a neat trick you can use to jump to a particular part of a page. First you type the URL of the page to link to, followed by **#**. In the code file for the page you are linking to, find the part you want to jump to and give that element an **id**, for example, `<section id="scFota"`. The value of the **id** is what you type after the **#** in your link.
-
-7. Now that the whole thing is a link, the text font may have changed. You can fix it by adding a **CSS class** to the link, `class="cardLink"`. Here's the CSS code to put in your stylesheet:
+6. Now that the whole thing is a link, the text font may have changed. You can fix it by adding a **CSS class** to the link, `class="cardLink"`. Here's the CSS code to put in your stylesheet:
    ```css
         .cardLink {
             color: inherit;
@@ -60,4 +59,4 @@
    ```
    Setting the value of any property to _inherit_ makes it use the value that the **parent** element has, so in this case the text colour will match the rest of the text on the homepage.
 
-8. Make at least four or five of these cards. If you are working from my example website you could do one for each of the sections on the attractions page. On the next Sushi Card you'll arrange the cards with a cool trick!
+7. Make at least four or five of these cards. If you are working from my example website you could do one for each of the sections on the attractions page. On the next Sushi Card you'll arrange the cards with a cool trick!
