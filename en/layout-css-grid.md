@@ -46,7 +46,7 @@
             "agArticle agArticle"
             "agAside1 agAside2";
    ```
-    _fr_ stands for _fraction_. You could use _px_ if you wanted exact measurements instead of proportional ones. Notice how you make the **article** take up all the space over the two columns.
+    _fr_ stands for _fraction_. Notice how you make the **article** take up all the space over the two columns.
 
 6. Let's try putting the **aside** elements over on the right, and making them half the width of the **article**. Change the values of **grid-template-columns** and **grid-template-areas** to:
    ```css
@@ -55,8 +55,7 @@
             "agArticle agAside1"
             "agArticle agAside2";
    ```
-
-7. If you don't want the **aside** elements to stretch all the way to the bottom, you can add a blank space using a dot: 
+   If you don't want the **aside** elements to stretch all the way to the bottom, you can add a blank space using a dot: 
    ```css
         grid-template-areas: 
             "agArticle agAside1"
@@ -64,4 +63,4 @@
             "agArticle . ";
    ```
 
-8. With **CSS grid** you can make almost any layout you like. In this example the **header** and **footer** were left out of the design, but they could be included in the grid too. If you want to learn more about **CSS grid**, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
+7. With **CSS grid** you can make almost any layout you like. In this example the **header** and **footer** were left out of the design, but they could be included in the grid too. If you want to learn more about **CSS grid**, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
