@@ -1,6 +1,6 @@
 1. Here's a technique you could use to make a photo gallery, or a portfolio page showing off all of your projects: little **preview cards**. ![](assets/previewCard_800_214.png)
 
-2. Add the following HTML code to your website, anywhere you like. I'm doing mine on index.html.
+2. Add the following HTML code to your website, anywhere you like. I'm doing mine on index.html. You can change the picture and text to suit your own preview cards. I'm going to do a bunch of highlights of the tourist attractions in Ireland.
    ```html
         <article class="card">
             <img src="monkey-2223271_640.jpg" class="smallPics">
@@ -8,15 +8,9 @@
             <p>Fota Island, County Cork</p>
 		</article>
    ```
-  I'm going to do a bunch of cards with some highlights of the tourist attractions in Ireland. You can change the pictures and text to whatever you like!
     
 3. Add the following CSS code for the classes _card_ and _smallPics_ as well as for the heading _h3_:
    ```css
-        h3 {
-            font-family: "League Gothic", sans-serif;
-            font-style: normal;
-            font-weight: 400;
-        }
         .smallPics {
             height: 60px;
             border-radius: 10px;
@@ -54,8 +48,8 @@
             </article>
         </a>
     ```
-    
-6. Notice how the value of **href** in my link ends in _#scFota_? This is a neat trick you can use to jump to a particular part of a page. First you type the URL of the page to link to, followed by **#**. In the code file for the page you are linking to, find the part you want to jump to and give that element an **id**, for example, `<section id="scFota"`. The value of the **id** is what you type after the **#** in your link.
+    Notice how the value of **href** in my link ends in _#scFota_? This is a neat trick you can use to jump to a particular part of a page. First you type the URL of the page to link to, followed by **#**. In the code file for the page you are linking to, find the part you want to jump to and give that element an **id**, for example, `<section id="scFota"`. The value of the **id** is what you type after the **#** in your link.
+    * If you are working on your own website feel free to change the link **URL** to whatever you want to link to!
 
 7. Now that the whoel thing is a link, the text font may have changed. You can fix it by adding a **CSS class** to the link, `class="cardLink"`. Here's the CSS code to put in your stylesheet:
    ```css
