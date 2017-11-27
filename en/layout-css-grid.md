@@ -63,5 +63,4 @@
             "agArticle agAside2"
             "agArticle . ";
    ```
-
-7. With **CSS grid** you can make almost any layout you like. If you want to learn more, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
+ * With **CSS grid** you can make almost any layout you like. If you want to learn more, go to [dojo.soy/html3-css-grid](http://dojo.soy/html3-css-grid)
