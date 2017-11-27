@@ -1,0 +1,17 @@
+{
+    "direction": "ltr",
+    "language": "ru",
+    "pdf": {
+        "margin": {
+            "bottom": 35,
+            "left": 0,
+            "right": 0,
+            "top": 100
+        },
+        "paperSize": "a4"
+    },
+    "title": "Advanced HTML",
+    "variables": {
+        "seriesTitle": "Advanced HTML"
+    }
+}

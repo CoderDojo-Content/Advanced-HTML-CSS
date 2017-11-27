@@ -3,3 +3,7 @@
 * [Español](es/)
 * [Nederlands](nl/)
 * [Français](fr/)
+* [русский](ru/)
+* [Polskie](pl/)
+* [Português](pt/)
+* [日本語](ja/)
